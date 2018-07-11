@@ -812,7 +812,7 @@ if ( $_SESSION[ 'loginin' ] == "1" )
  </div>
  </div>
  </body>
- <sя Interner Explojavascript">
+ <script>
 // 1
 function _GeneralInfo()
 {
@@ -899,4 +899,3 @@ else if ( $_SESSION[ 'loginin' ] != "1" )
   } //$_SESSION[ 'loginin' ] != "1"
 //}
 ?>
-

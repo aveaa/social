@@ -50,7 +50,6 @@ if ( $_SESSION[ 'loginin' ] == '1' )
       {
         $timep = time();
         $q     = "INSERT INTO `wall` (`id`, `iduser`, `idwall`, `text`, `date`) VALUES (NULL, '" . $_SESSION[ 'id' ] . "', '" . $_SESSION[ 'userwall' ] . "', '" . $_POST[ 'text' ] . "', '" . $timep . "')"; // выбираем нашего 
-        exit($q);
         $q1    = $dbh1->prepare( $q ); // отправляем запрос серверу
         $q1->execute();
         $q1->fetch();
