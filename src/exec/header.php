@@ -91,7 +91,6 @@ echo '<div class="infonew">
   echo '<center>Подробности в группе <a href="https://vk.com/llackersocial"> ВКонтакте</a>.</center>';
 exit();
 } ?>
-<br><center><b>Сайт находится в режиме чтения.</b><br>В связи с переездом на новый хостинг<br>и его особенностями, действия временно недоступны.</center><br>
  <div id="head">
   <div id="head-wrapper">
     
