@@ -1,0 +1,3 @@
+[submodule "src/api2"]
+	path = src/api2
+	url = https://github.com/l-lsoc/api.git
