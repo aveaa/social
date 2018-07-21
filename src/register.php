@@ -58,10 +58,6 @@ $_SESSION['admin'] = $us['groupu'];
 $_SESSION['pass'] = $_POST['reg_fpass'];
 $_SESSION['groupu'] = $us['groupu'];
 header('Location: id'.$_SESSION['id']);
-}else{
-echo '<meta charset="utf-8">пожалуйста, напишите инвайт-код!';
-exit();
-}
 }
 include "exec/header.php";
 include "exec/leftmenu.php";
